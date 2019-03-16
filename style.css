@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Lucida Sans Unicode', arial;
+}
+
+.container {
+  min-height: 100%;
+  border: 20px solid #3281ac;
+  background-color: #3d99cc;
+  padding: 10% 20% 17% 20%;
+}
+
+h1, p, li, i {
+  font-size: 16px;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+main {
+  width: 90%;
+  border: 3px solid #ffffff;
+}
+
+ul {
+  list-style: none;
+  font-size:0;
+}
+
+.w25 {
+  width: 25%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+  padding-top: 35px;
+  height: 130px;
+  text-align: center;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+}
+
+li p  {
+  margin-top: 21px;
+  margin-bottom: 27px;
+}
+
+.city1 {
+  background-color: #3d99cc;
+}
+.city2 {
+  background-color: #33cccc;
+}
+.city3 {
+  background-color: #996699;
+}
+.city4 {
+  background-color: #c24747;
+}
+.city5 {
+  background-color: #e2674a;
+}
+.city6 {
+  background-color: #ffcc66;
+}
+.city7 {
+  background-color: #99cc99;
+}
+.city8 {
+  background-color: #669999;
+}
+.city9 {
+  background-color: #cc6699;
+}
+.city10 {
+  background-color: #339966;
+}
+.city11 {
+  background-color: #666699;
+}
+
+li:hover {
+  opacity: 0.6;
+  transition: all .1s ease-in;
+}
+
+footer {
+  margin-top: 35px;
+}
