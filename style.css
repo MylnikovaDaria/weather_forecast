@@ -96,9 +96,8 @@ li p  {
 .city11 {
   background-color: #666699;
 }
-
-li:hover {
-  opacity: 0.6;
+main:hover li:not(:hover) {
+  opacity:0.5;
   transition: all .1s ease-in;
 }
 
